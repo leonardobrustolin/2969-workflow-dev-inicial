@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable camelcase */
-//import db from '../db/dbconfig.js';
+// import db from '../db/dbconfig.js';
 
 class Evento {
   constructor({
@@ -24,8 +24,8 @@ class Evento {
   static async pegarEventos() {
     return [{
       id: 1,
-      nome: 'lancamento',
-      descricao: 'descricao',
+      nome: 'lançamento',
+      descricao: 'descrição',
       data: '2026-01-01',
       autor_id: 1,
       created_at: '2026-01-01 07:00:00',
