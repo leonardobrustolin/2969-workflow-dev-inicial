@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable camelcase */
-import db from '../db/dbconfig.js';
+//import db from '../db/dbconfig.js';
 
 class Evento {
   constructor({
@@ -17,8 +17,8 @@ class Evento {
     this.descricao = descricao;
     this.data = data;
     this.autor_id = autor_id;
-    created_at = created_at || new Date().toISOString();
-    updated_at = updated_at || new Date().toISOString();
+    this.created_at = created_at || new Date().toISOString();
+    this.updated_at = updated_at || new Date().toISOString();
   }
 
   static async pegarEventos() {
